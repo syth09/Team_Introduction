@@ -26,6 +26,8 @@ lib/
 │ └── team_screen.dart
 ├── widgets/
 │ └── team_member_card.dart
+├── data/
+│ └── team_data.dart
 
 ### 2. Instruction
 
