@@ -1,5 +1,7 @@
+// Hard-coded team member data for the application (Sẽ update thành API, database hoặc file JSON sau này)
 import '../models/team_member.dart';
 
+// Danh sách các thành viên trong nhóm phát triển ERP J-One
 final List<TeamMember> teamMembers = [
   TeamMember(
     name: "Tạ Tuấn Phong",
