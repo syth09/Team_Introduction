@@ -31,5 +31,5 @@ lib/
 
 ### 2. Instruction
 
-- Run `Flutter pub get` right after you clone/pull the repo to initiate the installing sequence for dependancies (Run `flutter pub upgrade --major-versions` if there are new update for the dependencies)
+- Run `Flutter pub get` right after you clone/pull the repo to initiate the installing sequence for dependancies (`Optional` Run `flutter pub upgrade --major-versions` if there are new update for the dependencies)
 - After that used `flutter run` to complie and launch a Flutter Application on an attached device ỏ emulator/simulator. It is the primary way to run a Flutter app from the command line and features stateful hot reload, which allows you to see code changes almost instantly without losing the app's current state.

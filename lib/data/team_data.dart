@@ -5,7 +5,7 @@ import '../models/team_member.dart';
 final List<TeamMember> teamMembers = [
   TeamMember(
     name: "Tạ Tuấn Phong",
-    role: "Project Leader, Main Developer & Business Analyst",
+    role: "Project Leader, Developer & Business Analyst",
     description:
         "Lãnh đạo nhóm, quản lý tiến độ đồ án và phân tích yêu cầu nghiệp vụ của hệ thống ERP J-One.",
     imageUrl: "https://randomuser.me/api/portraits/men/32.jpg",
@@ -13,9 +13,9 @@ final List<TeamMember> teamMembers = [
   ),
   TeamMember(
     name: "Đặng Tuấn Phong",
-    role: "Flutter Developer",
+    role: "Flutter Developer (Core and State)",
     description:
-        "Phát triển các module nghiệp vụ chính như Quản lý kho và Bán hàng trong ứng dụng Flutter.",
+        "Xây dựng kiến trúc app, State Management (Riverpod/Bloc), Authentication, Navigation, kết nối Database",
     imageUrl: "https://randomuser.me/api/portraits/women/45.jpg",
     github: "https://github.com/boysadseetinh-gif",
   ),
@@ -23,7 +23,7 @@ final List<TeamMember> teamMembers = [
     name: "Nguyễn Thái Sơn",
     role: "Flutter Developer",
     description:
-        "Xây dựng giao diện các màn hình, form nhập liệu và bảng hiển thị dữ liệu.",
+        "Code các module nghiệp vụ chính (Quản lý Kho, Bán hàng, Nhân sự, Tài chính…)",
     imageUrl: "https://randomuser.me/api/portraits/men/67.jpg",
     github: "https://github.com/TGRGHOT09",
   ),
@@ -31,7 +31,7 @@ final List<TeamMember> teamMembers = [
     name: "Lê Phi Hùng",
     role: "UI/UX Designer & Flutter Developer",
     description:
-        "Thiết kế giao diện bằng Figma và code UI/UX đẹp mắt cho toàn bộ ứng dụng ERP J-One.",
+        "Thiết kế toàn bộ UI/UX bằng Figma, code giao diện responsive, làm Theme, animation, tối ưu cho Web.",
     imageUrl: "https://randomuser.me/api/portraits/women/24.jpg",
     github: "https://github.com/phihung9304",
   ),
@@ -39,7 +39,7 @@ final List<TeamMember> teamMembers = [
     name: "Trần Thanh Tùng",
     role: "Tester & Document Writer",
     description:
-        "Kiểm tra lỗi ứng dụng, viết test case và hỗ trợ hoàn thiện tài liệu đồ án.",
+        "Thiết kế Database (Firebase/Supabase), viết API integration, test toàn bộ app, viết test case",
     imageUrl: "https://randomuser.me/api/portraits/men/88.jpg",
     github: "https://github.com/ttung20044-ctrl",
   ),
