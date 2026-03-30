@@ -5,9 +5,9 @@ import '../models/team_member.dart';
 final List<TeamMember> teamMembers = [
   TeamMember(
     name: "Tạ Tuấn Phong",
-    role: "Project Leader, Developer & Business Analyst",
+    role: "Project Leader, Developer",
     description:
-        "Lãnh đạo nhóm, quản lý tiến độ đồ án và phân tích yêu cầu nghiệp vụ của hệ thống ERP J-One.",
+        "Lãnh đạo nhóm, quản lý tiến độ đồ án và phân tích yêu cầu nghiệp vụ của hệ thống ERP J-One, Code module bán hàng, mua hàng, Thiết kế Database (Firebase/Supabase)",
     imageUrl: "https://randomuser.me/api/portraits/men/32.jpg",
     github: "https://github.com/syth09",
   ),
@@ -15,7 +15,7 @@ final List<TeamMember> teamMembers = [
     name: "Đặng Tuấn Phong",
     role: "Flutter Developer (Core and State)",
     description:
-        "Xây dựng kiến trúc app, State Management (Riverpod/Bloc), Authentication, Navigation, kết nối Database",
+        "Xây dựng Navigation, kết nối Database, Code các module nghiệp vụ Nhân sự, Tài chính",
     imageUrl: "https://randomuser.me/api/portraits/women/45.jpg",
     github: "https://github.com/boysadseetinh-gif",
   ),
@@ -23,23 +23,21 @@ final List<TeamMember> teamMembers = [
     name: "Nguyễn Thái Sơn",
     role: "Flutter Developer",
     description:
-        "Code các module nghiệp vụ chính (Quản lý Kho, Bán hàng, Nhân sự, Tài chính…)",
+        "Code các module nghiệp vụ chính (Quản lý Kho, Bán hàng, Mua hàng, Nhân sự, Tài chính)",
     imageUrl: "https://randomuser.me/api/portraits/men/67.jpg",
     github: "https://github.com/TGRGHOT09",
   ),
   TeamMember(
     name: "Lê Phi Hùng",
     role: "UI/UX Designer & Flutter Developer",
-    description:
-        "Thiết kế toàn bộ UI/UX bằng Figma, code giao diện responsive, làm Theme, animation, tối ưu cho Web.",
+    description: "Code các module nghiệp vụ Quản lý Kho, Nhân sự, Tài chính.",
     imageUrl: "https://randomuser.me/api/portraits/women/24.jpg",
     github: "https://github.com/phihung9304",
   ),
   TeamMember(
     name: "Trần Thanh Tùng",
     role: "Tester & Document Writer",
-    description:
-        "Thiết kế Database (Firebase/Supabase), viết API integration, test toàn bộ app, viết test case",
+    description: "test toàn bộ app, viết test case, Nhân sự, Tài chính",
     imageUrl: "https://randomuser.me/api/portraits/men/88.jpg",
     github: "https://github.com/ttung20044-ctrl",
   ),
