@@ -22,22 +22,21 @@ final List<TeamMember> teamMembers = [
   TeamMember(
     name: "Nguyễn Thái Sơn",
     role: "Flutter Developer",
-    description:
-        "Code các module nghiệp vụ chính (Quản lý Kho, Bán hàng, Mua hàng)",
+    description: "Code các module nghiệp vụ chính (Quản lý Kho, Bán hàng, )",
     imageUrl: "https://randomuser.me/api/portraits/men/67.jpg",
     github: "https://github.com/TGRGHOT09",
   ),
   TeamMember(
     name: "Lê Phi Hùng",
     role: "UI/UX Designer & Flutter Developer",
-    description: "Code các module nghiệp vụ Quản lý Kho, Nhân sự, Tài chính.",
+    description: "Code các module nghiệp vụ Quản lý Kho, Nhân sự, Mua hàng",
     imageUrl: "https://randomuser.me/api/portraits/women/24.jpg",
     github: "https://github.com/phihung9304",
   ),
   TeamMember(
     name: "Trần Thanh Tùng",
     role: "Tester & Document Writer",
-    description: "test toàn bộ app, viết test case, Nhân sự, Tài chính",
+    description: "test toàn bộ app, Nhân sự, Mua hàng",
     imageUrl: "https://randomuser.me/api/portraits/men/88.jpg",
     github: "https://github.com/ttung20044-ctrl",
   ),
