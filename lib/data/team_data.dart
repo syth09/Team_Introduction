@@ -15,7 +15,7 @@ final List<TeamMember> teamMembers = [
     name: "Đặng Tuấn Phong",
     role: "Flutter Developer (Core and State)",
     description:
-        "Xây dựng Navigation, kết nối Database, Code các module nghiệp vụ Nhân sự, Tài chính",
+        "Xây dựng Navigation, kết nối Database, Code các module nghiệp vụ Nhân sự",
     imageUrl: "https://randomuser.me/api/portraits/women/45.jpg",
     github: "https://github.com/boysadseetinh-gif",
   ),
@@ -23,7 +23,7 @@ final List<TeamMember> teamMembers = [
     name: "Nguyễn Thái Sơn",
     role: "Flutter Developer",
     description:
-        "Code các module nghiệp vụ chính (Quản lý Kho, Bán hàng, Mua hàng, Nhân sự, Tài chính)",
+        "Code các module nghiệp vụ chính (Quản lý Kho, Bán hàng, Mua hàng)",
     imageUrl: "https://randomuser.me/api/portraits/men/67.jpg",
     github: "https://github.com/TGRGHOT09",
   ),

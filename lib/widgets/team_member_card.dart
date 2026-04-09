@@ -36,7 +36,7 @@ class TeamMemberCard extends StatelessWidget {
           children: [
             // Ảnh đại diện
             CircleAvatar(
-              radius: 46,
+              radius: 45,
               backgroundImage: NetworkImage(member.imageUrl),
             ),
 
@@ -83,7 +83,7 @@ class TeamMemberCard extends StatelessWidget {
             // Nút mở GitHub - chỉ hiển thị khi có link
             if (member.github.isNotEmpty)
               IconButton(
-                icon: const Icon(Icons.code, size: 26),
+                icon: const Icon(Icons.code, size: 27),
                 color: Colors.black87,
                 onPressed: () =>
                     _launchURL(member.github), // Gọi method _launchURL khi nhấn
